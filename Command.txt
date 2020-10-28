@@ -1,0 +1,27 @@
+C1. git status 
+    Explanation: to check which file is in which stage.
+                              git stages 1.Untracked
+                                           explanation-"new created files, which have not yet moved to staging Stage, since git will consider those files as new even after further                                                          modification in them  until they are  moved to staging Stage"
+                                         2.Tracked(changes not to be committed)
+                                           explanation-"It will have those files which have  modified after moving them to staging Stage"
+                                         3.Staging(changes to be committed)
+                                           explanation-"It will all *untracked and *tracked files which have been added through 'git add file_name'"
+C2. git add
+    Explanation: to add the files to staging Stage from tracked and untracked stages (you will have to mention the file name which you want to move to staging stage, for all files '                 git add *')
+C3. git commit -m "message"
+    Explanation: to commit all the files present in tracked and staging Stage, committing a file means to save changes you have made, though you can further make changes into commit                 ted file, but now the modified file will come in tracked stage until you do git add again for that particular file. here msg is to describe what changes you have ma                 de or what the file which you are going to commit is about. Note- you can't commit files without adding(moving)it to staging Stage.
+C4. git push origin branch_name
+    Explanation: to push the commited files to specific branch.
+C5. git log
+    Explanation: to 
+C6. git show commit_id
+    Explanation: to go through details for that particular commit id i.e what changes we have done since the file is created
+C7. git checkout -b branch_name
+    Explanation: to create a new branch
+C8. git checkout branch_name
+    Explanation: to switch to an existing branch
+C9. git branch --all
+    Explanation: to show all the git branches available for a particular repository
+C10.git clean -d -f
+    Explanation: to clean unnecessary files like .class files which don't get committed, they are also known as build files.
+
